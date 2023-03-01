@@ -1,0 +1,21 @@
+{
+  "name": "from-md-test",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "vite",
+    "build": "tsc && vite build",
+    "encode": "ffmpeg -r 30 -start_number 1 -i ./output/project/%06d.png output.mp4"
+  },
+  "dependencies": {
+    "@motion-canvas/2d": "^2.5.0",
+    "@motion-canvas/core": "^2.5.0",
+    "@ts-stack/markdown": "^1.4.0"
+  },
+  "devDependencies": {
+    "@motion-canvas/ui": "^2.5.0",
+    "@motion-canvas/vite-plugin": "^2.4.0",
+    "typescript": "^4.9.5",
+    "vite": "^3.0.5"
+  }
+}

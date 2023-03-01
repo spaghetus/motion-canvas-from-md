@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "seed": 1319153248,
+  "timeEvents": [
+    {
+      "name": "slide 1",
+      "targetTime": 4.176960200179243
+    },
+    {
+      "name": "slide 2",
+      "targetTime": 8.443612450011829
+    },
+    {
+      "name": "slide 3",
+      "targetTime": 12.341875000000002
+    },
+    {
+      "name": "slide 4",
+      "targetTime": 16.343611111111112
+    }
+  ]
+}
